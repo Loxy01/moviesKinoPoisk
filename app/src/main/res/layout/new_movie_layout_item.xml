@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:cardView="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    cardView:cardCornerRadius="4dp"
+    cardView:cardElevation="4dp"
+    cardView:cardUseCompatPadding="true"
+    cardView:cardBackgroundColor="@color/black2">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="4dp">
+
+        <!--Poster-->
+        <ImageView
+            android:id="@+id/MovieNewPoster"
+            android:layout_width="188dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_launcher_background" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

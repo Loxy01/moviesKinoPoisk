@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:orientation="vertical"
+        tools:context=".RegisterActivity">
+
+        <ImageView
+            android:id="@+id/Ic_wsr_movie"
+            android:layout_width="207dp"
+            android:layout_height="134dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="88dp"
+            android:background="@drawable/frame_svg" />
+
+        <EditText
+            android:id="@+id/Name_editText"
+            android:layout_width="343dp"
+            android:layout_height="44dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="69dp"
+            android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ '@.0123456789"
+            android:drawableStart="@drawable/svg_name_text"
+            android:background="@drawable/svg_email_outline"/>
+        <EditText
+            android:id="@+id/SurName_editText"
+            android:layout_width="343dp"
+            android:layout_height="44dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ '@.0123456789"
+            android:drawableStart="@drawable/svg_surname_text"
+            android:background="@drawable/svg_email_outline"/>
+        <EditText
+            android:id="@+id/Email_editText"
+            android:layout_width="343dp"
+            android:layout_height="44dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ '@.0123456789"
+            android:drawableStart="@drawable/svg_email_text"
+            android:background="@drawable/svg_email_outline"/>
+        <EditText
+            android:id="@+id/Password_editText"
+            android:layout_width="343dp"
+            android:layout_height="44dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ '@.0123456789"
+            android:drawableStart="@drawable/svg_password_text"
+            android:background="@drawable/svg_email_outline"/>
+        <EditText
+            android:id="@+id/Repeat_password_editText"
+            android:layout_width="343dp"
+            android:layout_height="44dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ '@.0123456789"
+            android:drawableStart="@drawable/svg_repeat_password_text"
+            android:background="@drawable/svg_email_outline"/>
+
+        <ImageButton
+            android:id="@+id/Button_continue_registration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:layout_gravity="center"
+            android:background="@drawable/svg_button_continue_reg"/>
+        <ImageButton
+            android:id="@+id/Button_already_have_account"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_gravity="center"
+            android:background="@drawable/svg_i_already_have_account"/>
+    </LinearLayout>
+</ScrollView>

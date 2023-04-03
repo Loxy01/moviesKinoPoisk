@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">WSR movies</string>
+    <string name="title_home">Главная</string>
+    <string name="title_dashboard">Подборка</string>
+    <string name="title_notifications">Коллекции</string>
+    <string name="title_profile">Профиль</string>
+
+    <string name="name">Name SurName</string>
+</resources>

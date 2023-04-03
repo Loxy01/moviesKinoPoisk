@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical"
+    tools:context=".LogInScreenActivity">
+
+    <ImageView
+        android:id="@+id/Ic_wsr_movie"
+        android:layout_width="207dp"
+        android:layout_height="134dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="88dp"
+        android:background="@drawable/frame_svg" />
+
+    <EditText
+        android:id="@+id/Email_editText"
+        android:layout_width="343dp"
+        android:layout_height="44dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="69dp"
+        android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ '@.0123456789"
+        android:drawableStart="@drawable/svg_email_text"
+        android:background="@drawable/svg_email_outline"/>
+    <EditText
+        android:id="@+id/Password_editText"
+        android:layout_width="343dp"
+        android:layout_height="44dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ '@.0123456789"
+        android:drawableStart="@drawable/svg_password_text"
+        android:background="@drawable/svg_email_outline"/>
+    
+    <ImageButton
+        android:id="@+id/Button_continue"
+        android:layout_width="343dp"
+        android:layout_height="44dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="104dp"
+        android:foreground="@drawable/svg_button_continue"/>
+    <ImageButton
+        android:id="@+id/Button_registration"
+        android:layout_width="343dp"
+        android:layout_height="44dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/svg_button_registration"/>
+
+</LinearLayout>

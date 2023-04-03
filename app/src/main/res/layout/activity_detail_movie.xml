@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DetailMovieActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="12dp">
+
+        <!--Poster-->
+        <ImageView
+            android:id="@+id/MoviePosterDetail"
+            android:layout_width="200dp"
+            android:layout_height="210dp"
+            android:src="@mipmap/ic_launcher" />
+
+    </LinearLayout>
+
+    <!--Movie title-->
+    <TextView
+        android:id="@+id/MovieNameDetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Title"
+        android:textSize="24sp"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/MovieDescriptionTitleDetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:paddingStart="4dp"
+        android:text="Description: "
+        android:textSize="18sp"
+        android:textAlignment="textStart" />
+
+    <TextView
+        android:id="@+id/MovieDescriptionDetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+
+        android:textAlignment="textStart" />
+
+</LinearLayout>
